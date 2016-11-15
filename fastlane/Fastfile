@@ -1,0 +1,9 @@
+lane :snap do
+  snapshot(workspace: "platforms/ios/FastlaneCordova.xcworkspace",
+           devices: ["iPhone 6s"],
+           languages: ['de-DE'],
+           clear_previous_screenshots: true,
+           reinstall_app: true,
+           scheme: "FastlaneCordova"
+           )
+end
